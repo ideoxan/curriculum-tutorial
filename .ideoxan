@@ -1,0 +1,26 @@
+{
+	"name": "Ideoxan Editor Tutorial",
+	"tags": [
+		"tutorial",
+		"html",
+		"js",
+		"css"
+	],
+	"topicType": null,
+	"images": {
+		"square": null,
+		"banner": null
+	},
+	"lessons": [{
+		"name": "Ideoxan Editor Tutorial",
+		"arbitraryFiles": [
+			"index.html",
+			"index.js",
+			"styles.css"
+		],
+		"starterFiles": [
+			"index.html"
+		],
+		"tasks": []
+	}]
+}
