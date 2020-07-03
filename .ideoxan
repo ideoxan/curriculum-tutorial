@@ -11,16 +11,21 @@
 		"square": null,
 		"banner": null
 	},
-	"lessons": [{
-		"name": "Ideoxan Editor Tutorial",
-		"arbitraryFiles": [
-			"index.html",
-			"index.js",
-			"styles.css"
-		],
-		"starterFiles": [
-			"index.html"
-		],
-		"tasks": []
-	}]
+	"chapters": [
+		{
+			"name": "Tutorial",
+			"lessons": [{
+				"name": "Ideoxan Editor Tutorial",
+				"arbitraryFiles": [
+					"index.html",
+					"index.js",
+					"styles.css"
+				],
+				"starterFiles": [
+					"index.html"
+				],
+				"tasks": []
+			}]
+		}
+	]
 }
