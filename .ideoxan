@@ -1,15 +1,20 @@
 {
 	"name": "Ideoxan Editor Tutorial",
+	"abstract": "This course will help you familiarize yourself with the editor through an interactive guide",
 	"tags": [
 		"tutorial",
 		"html",
 		"js",
 		"css"
 	],
-	"topicType": null,
+	"path": {
+		"hasPath": false,
+		"name": null,
+		"icon": null
+	},
 	"images": {
 		"square": null,
-		"banner": null
+		"banner": "/static/img/htmlbanner.jpg"
 	},
 	"chapters": [
 		{
