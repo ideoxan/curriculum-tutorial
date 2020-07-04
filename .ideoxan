@@ -29,7 +29,29 @@
 				"starterFiles": [
 					"index.html"
 				],
-				"tasks": []
+				"tasks": [
+					{
+						"completed": true
+					},
+					{
+						"completed": false,
+						"comparativeType": "input",
+						"inputBase": "styles.css",
+						"comparativeFunction": "equals"
+					},
+					{
+						"completed": false,
+						"comparativeType": "input",
+						"inputBase": "index.js",
+						"comparativeFunction": "equals"
+					},
+					{
+						"completed": false,
+						"comparativeType": "tab",
+						"tabBase": "rightTabs Terminal",
+						"comparativeFunction": "equals"
+					}
+				]
 			}]
 		}
 	]
