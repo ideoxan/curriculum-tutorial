@@ -36,13 +36,13 @@
 					{
 						"completed": false,
 						"comparativeType": "input",
-						"inputBase": "styles.css",
+						"inputBase": 2,
 						"comparativeFunction": "equals"
 					},
 					{
 						"completed": false,
 						"comparativeType": "input",
-						"inputBase": "index.js",
+						"inputBase": 1,
 						"comparativeFunction": "equals"
 					},
 					{
