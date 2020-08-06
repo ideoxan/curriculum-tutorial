@@ -29,6 +29,9 @@
 				"starterFiles": [
 					"index.html"
 				],
+				"starterContent": [
+					"<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <title>Sample Webpage<\/title>\r\n        <link href=\"styles.css\" type=\"text\/css\" rel=\"stylesheet\">\r\n    <\/head>\r\n    <body>\r\n        <p id=\"para1\">This is a sample HTML document for the editor tutorial<\/p>\r\n        <p id=\"para2\">It contains 2 paragraphs, a list, and a button!<\/p>\r\n        \r\n        <ul id=\"list\">\r\n            <li>Hello!<\/li>\r\n            <li>Hi!<\/li>\r\n        <\/ul>\r\n\r\n        <button onclick=\"buttonClick()\">Click Me!<\/button>\r\n\r\n        <script src=\"index.js\" type=\"text\/javascript\"><\/script>\r\n\r\n    <\/body>\r\n<\/html>"
+				],
 				"tasks": [
 					{
 						"completed": true
@@ -37,12 +40,14 @@
 						"completed": false,
 						"comparativeType": "input",
 						"inputBase": 2,
+						"comparativeBase": "#para1 {\r\n    font-size: 20px;\r\n}\r\n\r\n#para2 {\r\n    color: #ff0000;\r\n}\r\n\r\n.new-list-element {\r\n    font-weight: bold;\r\n}",
 						"comparativeFunction": "equals"
 					},
 					{
 						"completed": false,
 						"comparativeType": "input",
 						"inputBase": 1,
+						"comparativeBase": "function buttonClick() {\r\n    var node = document.createElement(\"li\")\r\n    var text = document.createTextNode(\"Hey!\")\r\n    node.appendChild(text)\r\n    node.classList.add(\"new-list-element\")\r\n    document.getElementById(\"list\").appendChild(node)\r\n    console.log(\"Hello, World!\")\r\n}",
 						"comparativeFunction": "equals"
 					},
 					{
