@@ -30,7 +30,7 @@
 					"index.html"
 				],
 				"starterContent": [
-					"<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <title>Sample Webpage<\/title>\r\n        <link href=\"styles.css\" type=\"text\/css\" rel=\"stylesheet\">\r\n    <\/head>\r\n    <body>\r\n        <p id=\"para1\">This is a sample HTML document for the editor tutorial<\/p>\r\n        <p id=\"para2\">It contains 2 paragraphs, a list, and a button!<\/p>\r\n        \r\n        <ul id=\"list\">\r\n            <li>Hello!<\/li>\r\n            <li>Hi!<\/li>\r\n        <\/ul>\r\n\r\n        <button onclick=\"buttonClick()\">Click Me!<\/button>\r\n\r\n        <script src=\"index.js\" type=\"text\/javascript\"><\/script>\r\n\r\n    <\/body>\r\n<\/html>"
+					"<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <title>Sample Webpage<\/title>\r\n        <link href=\"styles.css\" type=\"text\/css\" rel=\"stylesheet\">\r\n    <\/head>\r\n    <body>\r\n        <p id=\"para1\">This is a sample HTML document for the editor tutorial<\/p>\r\n        <p id=\"para2\">It contains 2 paragraphs, a list, and a button!<\/p>\r\n        \r\n        <ul id=\"list\">\r\n            <li>Hello!<\/li>\r\n            <li>Hi!<\/li>\r\n        <\/ul>\r\n\r\n        <button onclick=\"buttonClick()\">Click Me!<\/button>\r\n\r\n        <script src=\"index.js\" type=\"text\/javascript\"><\/script>\r\n\r\n    <\/body>\r\n<\/html>\r\n"
 				],
 				"tasks": [
 					{
