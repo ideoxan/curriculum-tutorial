@@ -14,7 +14,7 @@
 	},
 	"images": {
 		"square": null,
-		"banner": "/static/img/htmlbanner.jpg"
+		"banner": "/static/img/htmlbanner.webp"
 	},
 	"chapters": [
 		{
