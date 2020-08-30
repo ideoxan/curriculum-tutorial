@@ -1,6 +1,7 @@
 {
 	"name": "Tutorial",
 	"abstract": "This course will help you familiarize yourself with the editor through an interactive guide",
+	"long": "Super Long Description",
 	"tags": [
 		"tutorial",
 		"html",
@@ -19,60 +20,11 @@
 	"chapters": [
 		{
 			"name": "Tutorial",
-			"lessons": [{
-				"name": "Ideoxan Editor Tutorial",
-				"arbitraryFiles": [
-					"index.html",
-					"index.js",
-					"styles.css"
-				],
-				"starterFiles": [
-					"index.html"
-				],
-				"starterContent": [
-					"<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <title>Sample Webpage<\/title>\r\n        <link href=\"styles.css\" type=\"text\/css\" rel=\"stylesheet\">\r\n    <\/head>\r\n    <body>\r\n        <p id=\"para1\">This is a sample HTML document for the editor tutorial<\/p>\r\n        <p id=\"para2\">It contains 2 paragraphs, a list, and a button!<\/p>\r\n        \r\n        <ul id=\"list\">\r\n            <li>Hello!<\/li>\r\n            <li>Hi!<\/li>\r\n        <\/ul>\r\n\r\n        <button onclick=\"buttonClick()\">Click Me!<\/button>\r\n\r\n        <script src=\"index.js\" type=\"text\/javascript\"><\/script>\r\n\r\n    <\/body>\r\n<\/html>\r\n"
-				],
-				"tasks": [
-					{
-						"instructions": [
-							"Take a look at the code. As you can see in the viewport, a simple little HTML webpage was created. Neat right?"
-						],
-						"completed": true
-					},
-					{
-						"instructions": [
-							"Now lets add some color and variation. Open the `styles.css` tab and paste the following (don't worry about not understanding it now, we will discuss it all later):",
-							"```css\r\n#para1 {\r\n    font-size: 20px;\r\n}\r\n\r\n#para2 {\r\n    color: #ff0000;\r\n}\r\n\r\n.new-list-element {\r\n    font-weight: bold;\r\n}\r\n```"
-						],
-						"completed": false,
-						"comparativeType": "input",
-						"inputBase": 2,
-						"comparativeBase": "#para1 {\r\n    font-size: 20px;\r\n}\r\n\r\n#para2 {\r\n    color: #ff0000;\r\n}\r\n\r\n.new-list-element {\r\n    font-weight: bold;\r\n}",
-						"comparativeFunction": "equals"
-					},
-					{
-						"instructions": [
-							"Amazing! Now try and click the button. Notice how it doesn't do anything? Lets change that. Open `index.js` and paste the following",
-							"```js\r\nfunction buttonClick() {\r\n    var node = document.createElement(\"li\")\r\n    var text = document.createTextNode(\"Hey!\")\r\n    node.appendChild(text)\r\n    node.classList.add(\"new-list-element\")\r\n    document.getElementById(\"list\").appendChild(node)\r\n    console.log(\"Hello, World!\")\r\n}\r\n```",
-							"Now it adds new entries in the list that are bolded each time you click the button! Click it as many times as you'd like."
-						],
-						"completed": false,
-						"comparativeType": "input",
-						"inputBase": 1,
-						"comparativeBase": "function buttonClick() {\r\n    var node = document.createElement(\"li\")\r\n    var text = document.createTextNode(\"Hey!\")\r\n    node.appendChild(text)\r\n    node.classList.add(\"new-list-element\")\r\n    document.getElementById(\"list\").appendChild(node)\r\n    console.log(\"Hello, World!\")\r\n}",
-						"comparativeFunction": "equals"
-					},
-					{
-						"instructions": [
-							"Go to the terminal tab. Each one of those entries labeled with `[CONSOLE] Hello, World!` are from each one of the times the button was clicked! This is because the terminal entries correspond to each time the JavaScript function `console.log( )` is called. Pretty cool right? Try changing what is in between the quotes in the parentheses and see what happens."
-						],
-						"completed": false,
-						"comparativeType": "tab",
-						"tabBase": "rightTabs Terminal",
-						"comparativeFunction": "equals"
-					}
-				]
-			}]
+			"lessons": [
+				{
+					"name": "Ideoxan Editor Tutorial"
+				}
+			]
 		}
 	]
 }
