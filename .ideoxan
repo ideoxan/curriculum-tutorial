@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/ideoxan/ideoxan/master/spec/IdeoxanCourseMeta.spec.json",
+	"$schema": "https://raw.githubusercontent.com/ideoxan/spec/main/IdeoxanCourseMetadata.schema.json",
 	"name": "Tutorial",
 	"abstract": "This course will help you familiarize yourself with the editor through an interactive guide",
 	"long": "In this course, you will learn the basics of the Ideoxan Editor. The Ideoxan Editor is the interactive IDE (Integrated Development Environment) that allows for you to complete lesson tasks. It features a robust code editor powered by Ace, syntax highlighting, keyboard shortcuts, error reporting, console output and many other features. There is also a viewport that allows for realtime editing and code execution in the browser.<br><br>The tutorial guides the user to complete various simple tasks that are needed to work with the lessons and the editor. For instance, the user is asked to look around the editor and then click on the terminal to view the console output.<br><br>While this small course covers some HTML, CSS, and JavaScript, knowledge or understanding of these languages is not required. These languages and the associated concepts will be taught in later courses.<br><br><b>It is highly recommended you take this in order for you to understand how to use the Ideoxan Editor</b>",
